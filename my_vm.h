@@ -44,8 +44,6 @@ struct tlb {
     //Assume your TLB is a direct mapped TLB of TBL_SIZE (entries)
     // You must also define wth TBL_SIZE in this file.
     //Assume each bucket to be 4 bytes
-    //My implementation - keeping tlb entries ordered (oldest at tail) for easy LRU eviction
-    //Linked list data structure
 };
 struct tlb tlb_store;
 
